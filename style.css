@@ -1,0 +1,132 @@
+body {
+    font-size: 15px;
+    background: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.container{
+  text-align: left;
+  padding: 10px;
+}
+.container .logo{
+  font-size: 12px;
+  margin-top: -5px;
+  z-index: 10;
+}
+.container .logo span{
+  color: green;
+}
+.container .hero{
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+.container .head{
+  position: absolute;
+  top: 5px;
+  font-size: 35px;
+  padding: 10px;
+}
+.container .details{
+  position: absolute;
+  top: 150px;
+}
+.container .details h3{
+  width: 200px;
+  font-size: 25px;
+}
+.container .details .try{
+  width: 150px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  outline: 0;
+  border: 0;
+  padding: 5px;
+  border-radius: 1.5em;
+  margin-left: 33%;
+  background: green;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.container .details .benefits{
+  display: flex;
+  margin-top: 0px;
+}
+.container .details .bene{
+  margin-left: 20px;
+  margin-bottom: 0;
+  color: green;
+  font-size: 20px;
+}
+.container .details .benefits .tag{
+  border: 0;
+  background: green;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.container .details .benefits .tag p{
+  font-weight: 1000;
+  color: black;
+}
+
+
+@media screen and (min-width: 768px){
+  .container .logo{
+    font-size: 20px;
+  }
+  .container .head{
+    font-size: 65px;
+  }
+  .container .hero{
+    margin-top: 100px;
+  }
+  .container .details h3{
+    font-size: 50px;
+    width: 350px;
+    margin-top: 100px;
+  }
+  .container .details .try{
+    font-size: 40px;
+    width: 300px;
+  }
+  .container .details .bene{
+    font-size: 35px;
+  }
+  .container .details .benefits .tag{
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .container .logo{
+    font-size: 20px;
+  }
+  .container .head{
+    font-size: 65px;
+  }
+  .container .hero{
+    margin-top: 100px;
+  }
+  .container .details h3{
+    font-size: 50px;
+    width: 350px;
+    margin-top: 100px;
+  }
+  .container .details .try{
+    font-size: 40px;
+    width: 300px;
+  }
+  .container .details .bene{
+    font-size: 35px;
+  }
+  .container .details .benefits .tag{
+    font-size: 30px;
+  }
+}
